@@ -35,9 +35,15 @@ your data. In short: your data never leaves your device.</p>
 <h2>We do not collect data</h2>
 <p>The app does not collect, transmit, or sell any data - personal or
 anonymous. There are no analytics, no ads, no trackers, no third-party
-SDKs, and no accounts. The app never connects to the network at all:
+SDKs, and no accounts. The app itself makes no network requests:
 it has no server side, and the developer has no access to your
 records.</p>
+<p>There is one thing worth spelling out. Settings, the "About" section, links
+to this policy and to the support page. Tapping either one hands you off to
+your browser, and it is the browser - not the app - that makes the request.
+These pages are hosted on GitHub Pages, so at that moment GitHub sees your IP
+address, exactly as any website you visit would. Nothing from your records in
+the app is sent along.</p>
 
 <h2>All data stays on your device</h2>
 <p>Your smoking log, resisted cravings, settings, custom reasons,
@@ -64,9 +70,11 @@ its optional reminder are set in Settings.</p>
 <p>Settings, the "Data" section, offers two exports, and both are
 started by you alone; each file is handed to the recipient you choose
 through the system share sheet, and the app itself never sends anything.
-The app writes the file into a temporary folder inside its own sandbox;
-iOS clears that folder, and deleting the app removes the file with
-it.</p>
+The app writes the file into a temporary folder inside its own sandbox and
+never deletes it from there. iOS reclaims such folders at its own discretion,
+with no promise about when, so the file may sit there for a while. It is gone
+for certain once you delete the app; to clear it sooner, remove the copy you
+shared with its recipient and reinstall the app.</p>
 <p>"Export to CSV" writes your smoking history only: timestamps, the
 "backdated" flag, and the reason for each entry. The wellbeing diary is
 not part of this file.</p>
