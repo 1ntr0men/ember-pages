@@ -25,19 +25,20 @@
 <p class="meta"><a href="privacy.html">Читать по-русски</a></p>
 
 <h1>Privacy Policy</h1>
-<p class="meta">Effective date: September 9, 2026</p>
+<p class="meta">Effective date: October 6, 2026</p>
 
-<p>Ember is an iPhone app that helps you quit smoking through gradual
-reduction: you log the cigarettes you smoke, and the app shows you
-analytics of your progress. This policy describes how the app handles
-your data. In short: your data never leaves your device.</p>
+<p>Ember is an app for iPhone and Apple Watch that helps you cut down or
+quit through gradual reduction: you log the cigarettes you smoke, and
+the app shows you analytics of your progress. This policy describes how
+the app handles your data. In short: your data never leaves your devices
+(your iPhone and your paired Apple Watch).</p>
 
 <h2>We do not collect data</h2>
-<p>The app does not collect, transmit, or sell any data - personal or
-anonymous. There are no analytics, no ads, no trackers, no third-party
-SDKs, and no accounts. The app itself makes no network requests:
-it has no server side, and the developer has no access to your
-records.</p>
+<p>The app does not collect or sell any data - personal or anonymous -
+and does not send it to us or to anyone else. There are no analytics,
+no ads, no trackers, no third-party SDKs, and no accounts. The app
+itself makes no network requests: it has no server side, and the
+developer has no access to your records.</p>
 <p>There is one thing worth spelling out. Settings, the "About" section, links
 to this policy and to the support page. Tapping either one hands you off to
 your browser, and it is the browser - not the app - that makes the request.
@@ -45,16 +46,34 @@ These pages are hosted on GitHub Pages, so at that moment GitHub sees your IP
 address, exactly as any website you visit would. Nothing from your records in
 the app is sent along.</p>
 
-<h2>All data stays on your device</h2>
+<h2>All data stays on your devices</h2>
 <p>Your smoking log, resisted cravings, settings, custom reasons,
 milestones, and wellbeing diary entries (mood, tagged withdrawal
-symptoms, and notes) are stored only on your device, in a protected
+symptoms, and notes) are stored only on your iPhone, in a protected
 container shared by the app and its widget. Nothing is ever uploaded
 anywhere.</p>
 <p>The widget reads that same data from that same device: if you place
 it on your Home Screen, it shows today's count, the time since your last
 cigarette, and a quick log button. The widget sends nothing anywhere
 either.</p>
+
+<h2>Apple Watch</h2>
+<p>If you have an Apple Watch, Ember on the watch shows today's count,
+your goal and the time since the last cigarette, and lets you log a
+cigarette with one tap. The watch and the iPhone exchange data only with
+each other, over the system channel for paired devices
+(WatchConnectivity): the iPhone sends the watch a daily summary (the
+day's count, today's and tomorrow's goals, the time of the last entry,
+and service data: the day's boundaries, when the summary was made and a
+change counter, and identifiers of the entries made on the watch), and
+the watch sends the iPhone the entries made on it and their undos. This
+exchange runs between your own devices, with no servers of ours - the
+app has none, and we receive nothing. The journal is still stored only
+on the iPhone; the watch keeps only a service file: the last summary
+received from the iPhone and the latest entries and undos made on the
+watch, with their times and service identifiers. How the system moves
+data between paired devices is decided by iOS and watchOS, not by the
+app.</p>
 
 <h2>Wellbeing diary</h2>
 <p>The app offers optional wellbeing check-ins: a mood scale, a
@@ -69,7 +88,7 @@ its optional reminder are set in Settings.</p>
 <h2>Exports - only when you ask for them</h2>
 <p>Settings, the "Data" section, offers two exports, and both are
 started by you alone; each file is handed to the recipient you choose
-through the system share sheet, and the app itself never sends anything.
+through the system share sheet, and the app itself never sends the file anywhere.
 The app writes the file into a temporary folder inside its own sandbox and
 never deletes it from there. iOS reclaims such folders at its own discretion,
 with no promise about when, so the file may sit there for a while. It is gone
@@ -84,7 +103,7 @@ diary (moods, symptoms, and notes), your milestones, and your settings,
 including the reason names you wrote yourself. It exists so
 that your data survives events the app cannot control - a new device, a
 reinstall, or a change of the developer account the app's shared
-container is tied to. There is no import for that file yet: it is
+container is tied to. There is no import for that file: it is
 readable, and the CSV import is what brings the smoking log back. Keep
 that file somewhere you consider private: it contains your wellbeing
 notes in readable form.</p>
@@ -107,9 +126,12 @@ them on, and works fully without them.</p>
 in the Diary. The "Erase smoking history" button in Settings, the "Data"
 section, removes every smoking entry at once; your wellbeing diary,
 resisted cravings, milestones, and settings stay. To leave nothing
-behind, delete the app - all of its data is removed from the device with
-it. Export anything you need first - deleted data cannot be
-recovered.</p>
+behind, delete the app from your iPhone - all of its data is removed
+from the iPhone with it. If you use Ember on Apple Watch, the watch
+keeps only Ember's service file, and it goes away together with the
+watch app; you can remove the watch app from the watch, for example in
+the Watch app on your iPhone. Export anything you need first - deleted
+data cannot be recovered.</p>
 
 <h2>Age</h2>
 <p>The app is intended for adults (18+) who already smoke and want to
